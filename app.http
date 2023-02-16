@@ -1,0 +1,46 @@
+//API 1 call to check valid login
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+###
+
+
+//API 2 GET USER DETAILS
+GET http://localhost:3000/states/
+Authorization: Bearer alksdjflkasjdfdfsdfds
+###
+
+//API 3 GET Method Using State ID
+GET http://localhost:3000/states/4
+Authorization: Bearer alksdjflkasjdfdfsdfds
+###
+
+//API 4 POST Method
+POST http://localhost:3000/districts/
+Authorization: Bearer alksdjflkasjdfdfsdfds
+###
+
+//API 5 GET Method District
+GET http://localhost:3000/districts/12
+Authorization: Bearer alksdjflkasjdfdfsdfds
+###
+
+//API 6 DELETE Method
+DELETE http://localhost:3000/districts/5
+Authorization: Bearer alksdjflkasjdfdfsdfds
+###
+
+//API 7 PUT Method
+PUT http://localhost:3000/districts/5
+Authorization: Bearer alksdjflkasjdfdfsdfds
+###
+
+//API 8 GET Method States
+GET http://localhost:3000/states/13/stats/
+Authorization: Bearer alksdjflkasjdfdfsdfds
+###
+
